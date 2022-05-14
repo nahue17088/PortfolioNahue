@@ -1,0 +1,524 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap'); /*font-family: 'Fjalla One', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap'); /*font-family: 'Tajawal', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap'); /*font-family: 'Poppins', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    box-shadow: rgba(194, 225, 255, 0.342) 0px 8px 24px;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav div a{
+    color: black;
+    text-decoration: none;
+    padding: 7px;
+}
+
+nav div a:hover{
+    color: #6397ff;
+    text-decoration: none;
+}
+
+.nav-works{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    box-shadow: rgba(194, 225, 255, 0.342) 0px 8px 24px;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav-works h3{
+    color: black;
+    text-decoration: none;
+    font-size: 1.17em;
+    padding: 7px;
+}
+
+.img-svg-inicio{
+    width: 700px;
+    height: 400px;
+}
+
+.h1-inicio-centrado{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 85vh;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    font-size: 3.5rem;
+    padding: 10px;
+}
+
+
+.span-h1{
+    background: #14D8FF;
+    background: -webkit-linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+    background: -moz-linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+    background: linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+section{
+padding-top: 4rem;
+padding-bottom: 3rem;
+}
+
+section h4{
+    text-align: center;
+    padding-bottom: 100px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    font-size: 2rem;
+    background: #14D8FF;
+    background: -webkit-linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+    background: -moz-linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+    background: linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.img-me{
+    width: 500px;
+    height: 423px;
+}
+
+.animate-a{
+opacity: 1;
+transform: translateZ(0);
+transition-timing-function: ease;
+transition-duration: 1.2s;
+transition-property: opacity,transform;
+}
+
+.img-about-h5{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+
+.img-about-h5 h5{
+    width: 400px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.616);
+}
+
+.img-about-h5 h5 span{
+    color: black;
+}
+
+#about h4{
+    padding: 100px;
+}
+
+
+#skills div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px;
+}
+
+#skills div div{
+    flex-direction: column;
+}
+
+
+.fa-html5, .fa-js, .fa-css3-alt, .fa-figma{
+    background: hsla(221, 45%, 73%, 1);
+
+    background: linear-gradient(90deg, hsla(221, 45%, 73%, 1) 0%, hsla(220, 78%, 29%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(221, 45%, 73%, 1) 0%, hsla(220, 78%, 29%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(221, 45%, 73%, 1) 0%, hsla(220, 78%, 29%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9BAFD9", endColorstr="#103783", GradientType=1 );
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+padding: 20px;
+font-size: 90px;
+}
+
+.fa-css3-alt, .fa-figma, .fa-html5, .fa-js{
+    transform: translateY(-10%);
+    animation: skills 1.9s infinite;
+	transition: ease 0.5s;
+    font-size: 90px;
+}
+
+
+
+#page div{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+#page div h3{
+    text-align: left;
+    width: 290px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+
+#page div h3 span{
+    background: #14D8FF;
+    background: -webkit-linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+    background: -moz-linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+    background: linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 290px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+
+
+#audience div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    
+    #audience div h3{
+        text-align: left;
+        width: 290px;
+        font-family: 'Poppins', sans-serif;
+        text-transform: capitalize;
+        font-size: 1.3rem;
+    }
+    
+    #audience div h3 span{
+        background: #14D8FF;
+        background: -webkit-linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+        background: -moz-linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+        background: linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        width: 290px;
+        font-family: 'Poppins', sans-serif;
+        text-transform: capitalize;
+        font-size: 1.3rem;
+    }
+
+    .img-p-a{
+        width: 700px;
+        height: 500px;
+    }
+
+
+    #analitycs div{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-bottom: 100px;
+        }
+        
+        #analitycs div h3{
+            text-align: left;
+            width: 290px;
+            font-family: 'Poppins', sans-serif;
+            text-transform: capitalize;
+            font-size: 1.3rem;
+        }
+        
+        #analitycs div h3 span{
+            background: #14D8FF;
+            background: -webkit-linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+            background: -moz-linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+            background: linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            width: 290px;
+            font-family: 'Poppins', sans-serif;
+            text-transform: capitalize;
+            font-size: 1.3rem;
+        }
+    
+        .img-p-a{
+            width: 600px;
+            height: 450px;
+        }
+
+        footer{
+            background-color: #f8f9fa;
+            padding: 55px;
+        }
+
+        footer div div{
+            display: flex;
+            justify-content: center;
+        }
+
+        footer div div i{
+            padding: 15px;
+            color: white;
+        }
+
+        footer div div i:hover{
+            padding: 15px;
+            color: rgb(0, 0, 0);
+        }
+
+        .fa-telegram-plane{
+            font-size: 30px;
+        }
+
+        .cards{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+
+        .card-1, .card-2, .card-3{
+            width: 350px;
+            height: 400px;
+            background-color: rgb(255, 255, 255);
+            border-top-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+            margin: 20px;
+        }
+
+        .h4-centrado{
+            display: flex;
+            justify-content: center;
+            padding-top: 150px;
+        }
+
+        .h4-works{
+            text-align: center;
+            padding-bottom: 100px;
+            font-family: 'Poppins', sans-serif;
+            text-transform: capitalize;
+            font-size: 2rem;
+            background: #14D8FF;
+            background: -webkit-linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+            background: -moz-linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+            background: linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .h4-proyects{
+            text-align: center;
+            padding-top: 150px;
+            font-family: 'Poppins', sans-serif;
+            text-transform: capitalize;
+            font-size: 2rem;
+            background: #14D8FF;
+            background: -webkit-linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+            background: -moz-linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+            background: linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .card-1-text{
+            display: flex;
+            justify-content: center;
+        }
+
+        .card-1-img{
+            display: flex;
+            justify-content: center;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        
+        .h5-works{
+            color: rgb(0, 0, 0);
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.5rem;
+            text-align: center;
+            padding-bottom: 15px;
+        }
+
+        .h5-works-prox{
+            color: rgb(0, 0, 0);
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+
+        .h6-works-prox{
+            color: rgb(0, 0, 0);
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.0rem;
+            text-align: center;
+            padding-bottom: 5px
+        }
+
+        .p-works, .p-works2, .p-works3{
+            width: 300px;
+            border-radius: 10px;
+            color: rgb(90, 90, 90);
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            font-size: 0.8rem;
+            padding: 10px;
+        }
+
+        .p-works{
+            background-color: aliceblue;
+        }
+
+        .p-works2{
+            background-color: #543c94;
+            color: rgb(235, 235, 235);
+        }
+
+        .p-works3{
+            background-color: #b369f4;
+            color: rgb(235, 235, 235);
+        }
+
+        .container-btn{
+            display: flex;
+            justify-content: center;
+        }
+
+        .btn-works {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+
+        .code-btn, p{
+            font-size: 100px;
+            color: rgb(0, 0, 0);
+            font-family: 'Poppins', sans-serif;
+        }
+        
+
+        .c-footer div a i{
+            padding: 15px;
+            color: rgb(0, 0, 0);
+        }
+        
+        .c-footer div i{
+            padding: 10px;
+        }
+
+        .c-footer div i:hover{
+            transition: 2s;
+        }
+        
+        .c-footer div{
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: row;
+        }
+    
+        .c-footer div div{
+            margin: 5px;
+        }
+    
+    
+        .c-footer div a{
+            margin-top: 1px;
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            letter-spacing: 3px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+            padding: 200px;
+        }
+        
+        .container{
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: rgb(31, 31, 31);
+            text-align: center;
+        }
+        
+        .container label{
+            padding: 10px;
+            font-size: 2rem;
+            font-weight: bold;
+            color: rgb(31, 31, 31);
+            text-align: center;
+        }
+        
+        #contador{
+            background-color: rgba(255, 255, 255, 0.644);
+        }
+        
+        
+        /** Colors Used
+         * rgb(31, 31, 31)
+         * rgb(249, 255, 255)
+        */
+        
+        
+        #btn{
+            background-color: rgb(31, 31, 31);
+            color: rgb(249, 255, 255);
+            font-size: 1.5rem;
+            padding: 50px;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .container div{
+            padding-bottom: 200px;
+        }
+
+
+        @keyframes skills {
+            0%{transform: translateY(-10%);transition: ease 0.5s;}
+            50%{transform: translateY(10%);transition: ease 0.5s;}
+          }

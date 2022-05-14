@@ -1,0 +1,131 @@
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 1000px) {
+
+    nav h3{
+        color: #6397ff;
+    }
+
+    .h1-inicio-centrado{
+        padding: 50px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .h1-inicio-centrado img{
+        width: 400px;
+        height: 300px;
+    }
+    
+    .img-about-h5 div img{
+        width: 400px;
+        height: 200px;
+    }
+
+    #skills div img{
+        width: 300px;
+    }
+
+    #page div img{
+        width: 300px;
+    }
+
+    #audience div img{
+        width: 300px;
+    }
+
+    #analitycs div img{
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 822px){
+    #developer{
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .img-about-h5{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #skills div{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .img-about-h5 div img{
+        padding-bottom: 40px;
+    }
+
+    #page div{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    #page div img{
+        padding-bottom: 40px;
+    }
+
+    #audience div{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #analitycs div{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+  }
+
+  @media only screen and (max-width: 580px) {
+    .h1-inicio-centrado div{
+        padding-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .img-svg-inicio{
+display: none;
+    }
+  }
+
+  @media only screen and (max-width: 415px) {
+    #about div h5{
+        padding: 50px;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .h1-inicio-centrado div{
+        padding-top: 70px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .h{
+        display: none;
+    }
+
+
+    @media only screen and (max-width: 500px) {
+        .c-footer div{
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+          }
+    }
+    
+  @media only screen and (max-width: 345px) {
+    .h1-inicio-centrado div{
+        padding-top: 90px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+  }
+  }
+
+
